@@ -8,8 +8,6 @@ The Rate My Professor Data Scraping and GPT-3.5 Integration Project is designed 
 - Installation
 - Usage
 
-
-
 ## Getting Started
 This section guides you through the process of setting up the project for local development and usage.
 
