@@ -31,9 +31,12 @@ cd RMP-Scraper-And-LLM
 ```
 
 3. Install the required Python packages:
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 ## Usage
-Set up your environment variables in a .env file in the project directory:
+Set up your environment variables in a .env file in the project directory: 
+```
+OPENAI_API_KEY = your_gpt3_api_key_here
+```
