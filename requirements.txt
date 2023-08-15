@@ -1,0 +1,9 @@
+bs4
+pandas
+numpy
+requests
+python-dotenv
+selenium
+ipykernel
+openai
+langchain
