@@ -5,7 +5,6 @@ import random
 def generate_urls_and_save_to_csv():
     base_url = 'https://www.ratemyprofessors.com/school/'
 
-    
     # Generate URLs and store them in a list
     urls_data = []
 
