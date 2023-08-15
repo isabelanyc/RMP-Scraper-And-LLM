@@ -28,7 +28,7 @@ def test_urls_and_save_to_csv():
     schools_not_found = 0
 
     try:
-        with open('urls.csv', mode='r', newline='', encoding='utf-8-sig') as infile, open('valid_urls.csv', mode='w', newline='') as outfile:
+        with open('urls.csv', mode='r', newline='', encoding='utf-8-sig') as infile, open('data/valid_urls.csv', mode='w', newline='') as outfile:
             reader = csv.reader(infile)
             writer = csv.writer(outfile)
             writer.writerow(['SID', 'School Name', 'School URL', 'School Professors URL'])
