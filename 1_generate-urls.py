@@ -16,7 +16,7 @@ def generate_urls_and_save_to_csv():
         urls_data.append((sid, url))
 
     # Save the URLs to a CSV file
-    with open('urls.csv', mode='w', newline='') as file:
+    with open('data/urls.csv', mode='w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(['SID', 'URL'])
         writer.writerows(urls_data)
